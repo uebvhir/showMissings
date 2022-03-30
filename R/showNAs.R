@@ -1,4 +1,5 @@
 ## showNAs.R - compiled by RoxygenReady, a package by @vertesy
+
 # This function transforms a data.frame or tibble into a data frame
 # whose content is 1 if the value is not an NA or 0 in case it is.
 # Additionally the rows are sorted according the order defined by "rowGroups" levels, set by "varLabels"

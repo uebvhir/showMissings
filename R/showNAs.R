@@ -63,7 +63,7 @@ require(pheatmap)
     rownames(annots4Rows) <- rownames(dat)
     annots4Cols <- data.frame(Vars=vars_annot_df$Dataset)
     rownames(annots4Cols) <- rownames(vars_annot_df)
-    annotsColors <- list (Group=rowGroupsColors, Vars=varGroupsColors)
+    annotsColors <- list (Groups=rowGroupsColors, Vars=varGroupsColors)
 # Step 4
     # Depict the Heatmap
     p <- pheatmap(mat,
